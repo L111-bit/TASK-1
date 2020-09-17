@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="59274" started-at="2020-09-17T03:26:13Z" finished-at="2020-09-17T03:27:12Z">
+    <groups>
+    </groups>
+    <test name="my Zoopla testchrome" duration-ms="59274" started-at="2020-09-17T03:26:13Z" finished-at="2020-09-17T03:27:12Z">
+      <class name="com.Mytests.SearchTest">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.Mytests.SearchTest@66a3ffec]" name="Setup" is-config="true" duration-ms="12947" started-at="2020-09-17T03:26:13Z" finished-at="2020-09-17T03:26:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="verifyLoginPageTitle()[pri:1, instance:com.Mytests.SearchTest@66a3ffec]" name="verifyLoginPageTitle" duration-ms="47" started-at="2020-09-17T03:26:26Z" finished-at="2020-09-17T03:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method status="PASS" signature="verifyInvalidUsername()[pri:2, instance:com.Mytests.SearchTest@66a3ffec]" name="verifyInvalidUsername" duration-ms="3293" started-at="2020-09-17T03:26:26Z" finished-at="2020-09-17T03:26:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidUsername -->
+        <test-method status="PASS" signature="verifyvalidUsername()[pri:3, instance:com.Mytests.SearchTest@66a3ffec]" name="verifyvalidUsername" duration-ms="5553" started-at="2020-09-17T03:26:29Z" finished-at="2020-09-17T03:26:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyvalidUsername -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:4, instance:com.Mytests.SearchTest@66a3ffec]" name="verifyHomePageTitle" duration-ms="14324" started-at="2020-09-17T03:26:35Z" finished-at="2020-09-17T03:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="verifyUserManagementPage()[pri:5, instance:com.Mytests.SearchTest@66a3ffec]" name="verifyUserManagementPage" duration-ms="11251" started-at="2020-09-17T03:26:49Z" finished-at="2020-09-17T03:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserManagementPage -->
+        <test-method status="PASS" signature="verifyPlansANDPricing()[pri:6, instance:com.Mytests.SearchTest@66a3ffec]" name="verifyPlansANDPricing" duration-ms="6425" started-at="2020-09-17T03:27:00Z" finished-at="2020-09-17T03:27:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlansANDPricing -->
+        <test-method status="FAIL" signature="verifyPlans()[pri:7, instance:com.Mytests.SearchTest@66a3ffec]" name="verifyPlans" duration-ms="5117" started-at="2020-09-17T03:27:07Z" finished-at="2020-09-17T03:27:12Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LENOVO', ip: '192.168.43.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\ELCOT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54487}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9210aa98b8efaca5d0c18304e4e8f5e3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LENOVO', ip: '192.168.43.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\ELCOT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54487}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9210aa98b8efaca5d0c18304e4e8f5e3
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+at com.Mytests.SearchTest.verifyPlans(SearchTest.java:83)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlans -->
+      </class> <!-- com.Mytests.SearchTest -->
+    </test> <!-- my Zoopla testchrome -->
+  </suite> <!-- Suite -->
+</testng-results>
